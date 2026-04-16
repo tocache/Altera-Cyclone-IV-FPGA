@@ -1,0 +1,41 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'BTN'
+Slack : -3.511
+TNS   : -74.065
+
+Type  : Slow 1200mV 85C Model Hold 'BTN'
+Slack : 0.433
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'BTN'
+Slack : -3.000
+TNS   : -47.610
+
+Type  : Slow 1200mV 0C Model Setup 'BTN'
+Slack : -3.227
+TNS   : -65.152
+
+Type  : Slow 1200mV 0C Model Hold 'BTN'
+Slack : 0.382
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'BTN'
+Slack : -3.000
+TNS   : -47.610
+
+Type  : Fast 1200mV 0C Model Setup 'BTN'
+Slack : -0.929
+TNS   : -14.948
+
+Type  : Fast 1200mV 0C Model Hold 'BTN'
+Slack : 0.178
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'BTN'
+Slack : -3.000
+TNS   : -35.299
+
+------------------------------------------------------------

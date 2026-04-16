@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Apr 15 20:52:15 2026
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : Semana_03
+Top-level Entity Name : Semana_03
+Family : Cyclone IV E
+Total logic elements : 53
+    Total combinational functions : 53
+    Dedicated logic registers : 30
+Total registers : 30
+Total pins : 5
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

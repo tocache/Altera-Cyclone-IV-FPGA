@@ -1,0 +1,29 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Q_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Q_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Q_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Q_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "BTN",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

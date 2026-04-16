@@ -1,0 +1,37 @@
+|Semana_03
+BTN => cuenta[0].CLK
+BTN => cuenta[1].CLK
+BTN => cuenta[2].CLK
+BTN => cuenta[3].CLK
+BTN => interno[0].CLK
+BTN => interno[1].CLK
+BTN => interno[2].CLK
+BTN => interno[3].CLK
+BTN => interno[4].CLK
+BTN => interno[5].CLK
+BTN => interno[6].CLK
+BTN => interno[7].CLK
+BTN => interno[8].CLK
+BTN => interno[9].CLK
+BTN => interno[10].CLK
+BTN => interno[11].CLK
+BTN => interno[12].CLK
+BTN => interno[13].CLK
+BTN => interno[14].CLK
+BTN => interno[15].CLK
+BTN => interno[16].CLK
+BTN => interno[17].CLK
+BTN => interno[18].CLK
+BTN => interno[19].CLK
+BTN => interno[20].CLK
+BTN => interno[21].CLK
+BTN => interno[22].CLK
+BTN => interno[23].CLK
+BTN => interno[24].CLK
+BTN => interno[25].CLK
+Q_out[0] <= cuenta[0].DB_MAX_OUTPUT_PORT_TYPE
+Q_out[1] <= cuenta[1].DB_MAX_OUTPUT_PORT_TYPE
+Q_out[2] <= cuenta[2].DB_MAX_OUTPUT_PORT_TYPE
+Q_out[3] <= cuenta[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
