@@ -1,0 +1,31 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.std_logic_arith.all;
+use IEEE.std_logic_unsigned.all;
+
+entity SEM05 is
+	port(	in_clk:	in std_logic;
+			S:			in std_logic_vector(2 downto 0);
+			LENTO, RAPIDO:			out std_logic);
+end SEM05;
+
+architecture estructura of SEM05 is
+
+component CLK_DIV1 is
+	port(	in_clk:	in std_logic;
+			Q:			out std_logic);
+end component;
+
+component PRESCALER is
+	port(	in_clk:	in std_logic;
+			S:			in std_logic_vector(2 downto 0);
+			X:			out std_logic);
+end component;
+
+begin
+	u1:	CLK_DIV1 port map (	in_clk => in_clk,
+										Q => LENTO);
+	u2:	PRESCALER port map (	in_clk => in_clk,
+										S => S,
+										X => RAPIDO);
+end estructura;

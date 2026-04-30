@@ -1,0 +1,24 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.std_logic_arith.all;
+use IEEE.std_logic_unsigned.all;
+
+entity MUX8A1 is
+	port(	IN:	in std_logic_vector(7 downto 0);
+			S:		in std_logic_vector(2 downto 0);
+			X:		out std_logic);
+end CLK_DIV1;
+
+architecture funcionamiento of MUX8A1 is
+begin
+	with S select
+		x <=  IN(0) when "000",
+				IN(1) when "001",
+				IN(2) when "010",
+				IN(3) when "011",
+				IN(4) when "100",
+				IN(5) when "101",
+				IN(6) when "110",
+				IN(7) when "111",
+				'0' when others;
+end funcionamiento;
